@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#container {
+	position: relative;
+	width: 620px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 1px;
+}
+
+#game {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	border-radius: 2px;
+	background: green;
+}
+
+#game div{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: #20aafa;
+	color: gold;
+	text-align: center;
+}
