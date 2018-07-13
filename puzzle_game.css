@@ -22,15 +22,104 @@ body {
 	position: absolute;
 	width: 450px;
 	height: 450px;
-	border-radius: 2px;
-	background: green;
+	border-radius: 10px;
+	background-color: #ffe171;
+	box-shadow: 0 0 10px #ffe171;
+	display: inline-block;
 }
 
 #game div{
 	position: absolute;
-	width: 150px;
-	height: 150px;
+	width: 149px;
+	height: 149px;
+	box-shadow: 1px 1px 2px #777;
 	background: #20aafa;
 	color: gold;
 	text-align: center;
+	font-size: 120px;
+	cursor: pointer;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+#d1 {
+	left: 0px;
+}
+
+#d2 {
+	left: 150px;
+}
+
+#d3 {
+	left: 300px;
+}
+
+#d4 {
+	top: 150px;
+}
+
+#d5 {
+	top: 150px;
+	left: 150px;
+}
+
+#d6 {
+	top: 150px;
+	left: 300px;
+}
+
+#d7 {
+	top: 300px;
+}
+
+#d8 {
+	top: 300px;
+	left: 150px;
+}
+
+#game div:hover {
+	color: #ffe171;
+}
+
+#control {
+	width: 150px;
+	height: 450px;
+	float: right;
+	display: inline-block;
+}
+
+#control rowspan {
+	height: 25px;
+	font-size: 20px;
+	color: #222;
+	margin-top: 10px;
+}
+
+#start {
+	width: 100px;
+	height: 28px;
+	font-size: 28px;
+	background-color: #20a6f6;
+	color: #ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align: center;
+	cursor: pointer;
+}
+
+#reset {
+	width: 100px;
+	height: 28px;
+	font-size: 28px;
+	background-color: #20a6f6;
+	color: #ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align: center;
+	cursor: pointer;
 }
